@@ -1,0 +1,235 @@
+
+  @font-face {
+      font-family: 'Gilroy';
+      src: url('../fonts/gilroy-extrabold.otf') format('opentype');
+      font-weight: bold;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-color: #F7F7F7;
+    color: #4A4A4A;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 1em;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  dl {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  ul ol {
+    margin-bottom: 0;
+  }
+
+  dd {
+    margin-bottom: 0.5em;
+    margin-left: 0;
+  }
+  blockquote {
+    margin: 0 0 1em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+  }
+
+  body.fontLoaded {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  #app {
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  p,
+  label {
+    font-family: Roboto, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+  .mybitBlue {
+    color: #1890ff;
+  }
+
+  .contribute {
+    background-color: rgba(255,255,255,0);
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    width: 192px;
+  }
+
+  .bhover:hover {
+    background-color: #117DFF;
+    border-color: #117DFF;
+    color: #ffffff;
+    outline: none !important;
+  }
+
+  .bhover:focus {
+    background-color: #117DFF;
+    border-color: #117DFF;
+    color: #ffffff;
+    outline: none !important;
+  }
+
+  .bhover:active {
+    background-color: #0D70FF;
+    border-color: #0D70FF;
+    color: #ffffff;
+    box-shadow: none;
+    outline: none !important;
+  }
+
+  .whover:hover {
+    background-color: white;
+    border-color: white;
+    color: #117DFF;
+    outline: none !important;
+  }
+
+  .whover:focus {
+    background-color: white;
+    border-color: white;
+    color: #117DFF;
+    outline: none !important;
+  }
+
+  .whover:active {
+    background-color: white;
+    border-color: white;
+    color: #0D70FF;
+    box-shadow: none;
+    outline: none !important;
+  }
+
+  .bg-mybitBlue {
+    background-color: #1890ff;
+  }
+
+  .gilroy {
+    font-family: Gilroy;
+  }
+
+  .fh {
+    line-height: 14px;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .h25{
+    height: 3rem;
+  }
+
+  .pv80px{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .pb80px{
+    padding-bottom: 80px;
+  }
+
+  .pt60px{
+    padding-top: 60px;
+  }
+
+  .pv60px{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .pb16px{
+    padding-bottom: 16px;
+  }
+
+  .pb48px{
+    padding-bottom: 48px;
+  }
+  
+  .pv24px{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .pt24px{
+    padding-top: 24px;
+  }
+
+  .pt32px{
+    padding-top: 32px;
+  }
+
+  .pb24px{
+    padding-bottom: 24px;
+  }
+
+  .ph16px{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mh16px{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .ph24px{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .ma12px{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+  .m2btn12px{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+  }
+
+  .pt32px{
+    padding-top: 32px;
+  }
+
+  .pv32px{
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  [class^="ant-"]{
+    font-family: 'Roboto', sans-serif;
+  }
