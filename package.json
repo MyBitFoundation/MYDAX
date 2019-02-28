@@ -1,0 +1,40 @@
+{
+  "name": "react-static-example-typescript",
+  "private": true,
+  "scripts": {
+    "start": "react-static start",
+    "stage": "react-static build --staging",
+    "build": "react-static build",
+    "bundle": "react-static bundle",
+    "export": "react-static export",
+    "serve": "serve dist -p 3000 -s"
+  },
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "@types/react-mailchimp-subscribe": "^2.0.2",
+    "react": "^16.8.0-alpha.0",
+    "react-dom": "^16.8.0-alpha.0",
+    "react-hot-loader": "^4.3.12",
+    "react-mailchimp-subscribe": "^2.1.0",
+    "react-static": "^6.0.18"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@types/reach__router": "^1.2.2",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-hot-loader": "^4.1.0",
+    "@types/webpack-env": "^1.13.6",
+    "prettier": "^1.16.3",
+    "prettier-tslint": "^0.4.2",
+    "react-static-plugin-typescript": "^3.1.0",
+    "serve": "10.1.1",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
+}
