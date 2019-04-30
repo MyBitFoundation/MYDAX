@@ -49,7 +49,7 @@ class Hero extends React.Component<{}, {}> {
               width: '192px',
             }}
             className="contribute f4 m2btn12px link br2 pv2 dib white ba ttu bhover gilroy"
-            href="https://ddf.mybit.io/"
+            href="https://task.market/"
           >
             Contribute
           </a>

@@ -14,7 +14,7 @@ export default class GetInvolved extends React.Component<{}, {}> {
             height: '48px'
           }}
           className="contribute f4 link br2 dib white ba ttu center tc whover gilroy tracked"
-          href="https://ddf.mybit.io/"
+          href="https://task.market/"
         >
           Contribute
         </a>
