@@ -4,9 +4,9 @@ export interface AboutLink {
 }
 
 export const AboutLinks: AboutLink[] = [
-  { href: 'https://mybit.io/about-us', text: 'Company' },
-  { href: 'https://mybit.io/token', text: 'Token' },
+  { href: 'https://mybit.io/about', text: 'Company' },
+  { href: 'https://learn.mybit.io/learn/mybit-token-myb-1', text: 'Token' },
   { href: 'https://medium.com/mybit-dapp', text: 'Blog' },
-  { href: 'https://mybit.io/applications', text: 'Other dApps' },
+  { href: 'https://mybit.io/tools', text: 'Other dApps' },
   { href: 'mailto:info@mybit.io', text: 'Contact' },
 ]
