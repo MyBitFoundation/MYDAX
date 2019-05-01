@@ -22,7 +22,7 @@ class Hero extends React.Component<{}, {}> {
             className="b f2-ns f3 lh-title white pb16px"
             style={{ fontFamily: 'Gilroy' }}
           >
-            A different approach to Decentralized Exchanges
+            Powering safe, solvent and trustless trading of any asset
           </div>
           <div className="f4-ns f5 lh-copy fw1 white pb16px">
             Decentralised exchanges are difficult to use. MYDAX makes it simple

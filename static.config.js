@@ -37,8 +37,16 @@ export default {
             <meta name="robots" content="index,follow" />
             <meta name="theme-color" content="#1890ff" />
             <meta
+              itemProp="description"
+              content="Powering safe, solvent and trustless trading of any asset."
+            />
+            <meta
               name="Description"
-              content="Decentralised exchanges are difficult to use. MYDAX makes it simple by focusing on user-friendliness without sacrificing the security benefits of decentralisation."
+              content="Powering safe, solvent and trustless trading of any asset."
+            />
+            <meta
+              name="Description"
+              content="Powering safe, solvent and trustless trading of any asset."
             />
           </Head>
           <Body>{children}</Body>
