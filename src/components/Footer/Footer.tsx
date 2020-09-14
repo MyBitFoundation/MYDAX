@@ -3,7 +3,7 @@ import SocialMediaLinks from '@components/Footer/SocialMediaLinks'
 import AboutLinks from '@components/Footer/AboutLinks'
 import CompanyInfo from '@components/Footer/CompanyInfo'
 import GetInvolved from '@components/Footer/GetInvolved'
-
+import Copyright from '@components/Footer/Copyright'
 
 class Footer extends React.Component<{}, {}> {
   constructor(props: {}) {
@@ -31,7 +31,7 @@ class Footer extends React.Component<{}, {}> {
             <div className="order-3-l">
               <CompanyInfo />
             </div>
-
+        
       </section>
     )
   }
