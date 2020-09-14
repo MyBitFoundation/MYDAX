@@ -28,7 +28,7 @@
     "prettier": "^1.16.3",
     "prettier-tslint": "^0.4.2",
     "react-static-plugin-typescript": "^3.1.0",
-    "serve": "10.1.1",
+    "serve": "10.1.2",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0"
   },
