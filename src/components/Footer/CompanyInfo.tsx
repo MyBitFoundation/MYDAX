@@ -6,10 +6,7 @@ export default class CompanyInfo extends React.Component<{}, {}> {
     return (
       <div className="center tc tr-l white pt32px">
         <img src={MyBitLogo} alt="MyBit" />
-        <div className="lh-copy normal f6 tc tr-l center mr0-l">
-            MyBit Foundation. Dammstrasse 16, 6300 Zug, Switzerland<br/>
-            Registration no. CHE-177.186.963
-        </div>
+    
       </div>
     )
   }
