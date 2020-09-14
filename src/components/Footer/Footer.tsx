@@ -31,7 +31,9 @@ class Footer extends React.Component<{}, {}> {
             <div className="order-3-l">
               <CompanyInfo />
             </div>
+          </div>
         
+        </div>
       </section>
     )
   }
